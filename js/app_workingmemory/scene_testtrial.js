@@ -180,7 +180,7 @@ function quit_task(){
       ]
     //for loacl debugging
   exportCSV(parameters_to_save,',', 'workingmemory');
-  location.href='../index.html'
+  location.href='../../index.html'
   //
 
 }

@@ -116,6 +116,6 @@ post('exit_view_cognitive_task', parameters_to_save, 'post');
     ]
   //for loacl debugging
   exportCSV(parameters_to_save,',', 'gonogo');
-  location.href='../index.html'
+  location.href='../../index.html'
   //
 }

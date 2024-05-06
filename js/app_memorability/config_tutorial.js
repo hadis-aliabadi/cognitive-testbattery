@@ -81,8 +81,8 @@ let text_tutorial_4_0 = "Let's start the main experiment.";
 let text_tutorial_5_0 = "Break time.";
 
 //tutorial specific dataset.
-let fname_target_tutorial = '../img/list_img_target_tutorial.csv';
-let fname_filler_tutorial = '../img/list_img_filler_tutorial.csv';
+let fname_target_tutorial = '/static/img/list_img_target_tutorial.csv';
+let fname_filler_tutorial = '/static/img/list_img_filler_tutorial.csv';
 let num_targetlist_tutorial = 7;
 let num_fillerlist_tutorial = 6;
 let Imgs_targ_tutorial = [];

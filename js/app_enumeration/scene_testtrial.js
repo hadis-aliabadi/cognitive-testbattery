@@ -248,7 +248,7 @@ let parameters_to_save = [
     ]
   //for loacl debugging
   exportCSV(parameters_to_save,',', 'enumeration');
-  location.href='../index.html'
+  location.href='../../index.html'
 
 }
 

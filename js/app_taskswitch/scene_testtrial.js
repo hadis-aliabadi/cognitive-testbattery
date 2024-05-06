@@ -141,7 +141,7 @@ function quit_task(){
       ]
     //for loacl debugging
     exportCSV(parameters_to_save,',', 'taskswitch');
-    location.href='../index.html'
+    location.href='../../index.html'
     //
 
 }

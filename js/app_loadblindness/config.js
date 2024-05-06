@@ -15,16 +15,16 @@ let ppd = get_ppd(viewer_dist, screen_params);
 //////////////////////////Monitor 
 
 // Characters:
-let researcher_1_path = '../img/researcher/researcher_1.png';
-let researcher_2_path = '../img/researcher/researcher_2.png';
-let researcher_3_path = '../img/researcher/researcher_3.png';
-let bubble_path = '../img/bubble_line.png';
+let researcher_1_path = '/static/img/researcher/researcher_1.png';
+let researcher_2_path = '/static/img/researcher/researcher_2.png';
+let researcher_3_path = '/static/img/researcher/researcher_3.png';
+let bubble_path = '/static/img/bubble_line.png';
 let researcher_1, researcher_2,researcher_3;
 let researcher_width = window_availw/4;
 let researcher_height = researcher_width;
 let bubble_img;
 
-let fname_bkg = '../img/bkg_largewindow.png';
+let fname_bkg = '/static/img/bkg_largewindow.png';
 let size_bkg_width_orig = 1440; //original in pix
 let size_bkg_height_orig = 1080; //original in pix
 let ratio_center = 0; 

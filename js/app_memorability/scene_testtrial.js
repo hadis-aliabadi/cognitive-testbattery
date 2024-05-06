@@ -144,7 +144,7 @@ function scene_instruction(){
         ]
       //for loacl debugging
       exportCSV(parameters_to_save,',', 'memorability');
-      location.href='../index.html'
+      location.href='../../index.html'
       //
     //post('cognitive_assessment_home', parameters_to_save, 'post');
   }
