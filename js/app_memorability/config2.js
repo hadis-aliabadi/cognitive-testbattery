@@ -121,7 +121,7 @@ function make_array(val_start, val_stop, num_array) {
     return array;
   }
 
-let text_start = "Please click the mouse to start this experiment";
-let text_end = "Thank you for joining the experiment.";
+let text_start = "لطفاً برای شروع این آزمایش روی ماوس کلیک کنید.";
+let text_end = "از اینکه در این آزمایش شرکت کردید متشکریم.";
 
 let flag_load_end = false;

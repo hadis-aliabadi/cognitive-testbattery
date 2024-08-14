@@ -22,10 +22,10 @@ let size_previous_text = Math.round(0.02*Pos.canvas_height); //in pixel
 let text_font = 'Helvetica';
 
 //scene 0 
-let text_tutorial_0_0 = "The goal of this experiment is to measure your attention ability";
-let text_tutorial_0_1 = "to multiple targets. On each trial, you will see";
-let text_tutorial_0_2 = "a brief presentation of a cross target with four stripe objects."; 
-let text_tutorial_0_3 = "You have to answer two tasks for each trial.";
+let text_tutorial_0_0 = "هدف این آزمایش سنجش توانایی توجه شما به اهداف متعدد است.";
+let text_tutorial_0_1 = "در هر مرحله، ";
+let text_tutorial_0_2 = "نمایش کوتاهی از هدف صلیب با چهار شی نوار را مشاهده خواهید کرد."; 
+let text_tutorial_0_3 = " شما باید برای هر مرحله دو وظیفه را انجام دهید";
 let pos_tutorialtext_x = Pos.center_x;
 let pos_tutorialtext_y = Pos.center_y+Math.round(0.04*Pos.canvas_height);;
 let size_tutorialtext = Math.round(0.025*Pos.canvas_height);
@@ -37,7 +37,7 @@ let shift_text = Math.round(0.04*Pos.canvas_height);
 let flag_disp = false;
 let num_demotargnum = 5;
 
-let text_tutorial_1_0 = "This is an example of stimulus presentation.";
+let text_tutorial_1_0 = "این یک نمونه است.";
 let pos_tutorialtext_x1 = Pos.center_x;
 //let pos_tutorialtext_y1 = Pos.center_y-Math.round(5*ppd);
 let pos_tutorialtext_y1 = Pos.center_y+Math.round(0.08*Pos.canvas_height);
@@ -45,7 +45,7 @@ let pos_tutorialimage_y1 = Pos.center_y - Math.round(0.16*Pos.canvas_height);
 let pos_tutorialslider_y1 = Pos.center_y - Math.round(0.14*Pos.canvas_height);
 
 //scene 2
-let text_tutorial_2_0 = "First, you have to answer which of the lines was longer.";
+let text_tutorial_2_0 = "ابتدا باید پاسخ دهید که کدام‌یک از خطوط بلندتر بود.";
 let pos_tutorialtext_x2 = Pos.center_x;
 let pos_tutorialtext_y2 = Pos.center_y+Math.round(0.08*Pos.canvas_height);
 // let pos_anszer_y2= Pos.center_y+(size_answer/2)
@@ -53,13 +53,15 @@ let pos_answer_y2= Pos.center_y - Math.round(0.24*Pos.canvas_height);
 let shift_imageposition = Math.round(0.33*Pos.canvas_height);
 
 //scene 2_2
-let text_tutorial_2_1 = "Next, you have to answer which of the four objects had the strong contrast";
-let text_tutorial_2_2 = "by clicking one of the four buttons.";
+let text_tutorial_2_1 = "سپس باید پاسخ دهید که کدام‌یک از چهار شی دارای کنتراست قوی‌تری بود";
+let text_tutorial_2_2 = "و یکی از چهار دکمه را کلیک کنید";
 
 //scene 3
-let text_tutorial_3_0 = "Let's start the practice.";
-let text_tutorial_3_1 = "Please keep in mind that you have to correctly answer";
-let text_tutorial_3_2 = "at least the first length question.";
+let text_tutorial_3_0 = "بیاید نمرین را شروع کنیم.";
+let text_tutorial_3_1 = "لطفاً به یاد داشته باشید که باید به‌درستی";
+// let text_tutorial_3_2 = "at least the first length question.";
+let text_tutorial_3_2 = "به حداقل سوال طول اول پاسخ دهید";
+
 let size_tutorialtext3 = Math.round(0.04*Pos.canvas_height);
 let pos_tutorialtext_x3 = Pos.center_x;
 let pos_tutorialtext_y3 = Pos.center_y-Math.round(0.12*Pos.canvas_height);
@@ -71,9 +73,9 @@ let y_start = Pos.center_y-Math.round(0.10*Pos.canvas_height)+(size_start_h/2); 
 let size_start_text = Math.round(0.02*Pos.canvas_height);
 
 //scene main ready
-let text_tutorial_4_0 = "Let's start the main experiment.";
+let text_tutorial_4_0 = "بیاید آزمون اصلی را شروع کنیم.";
 //scene break
-let text_tutorial_5_0 = "Break time.";
+let text_tutorial_5_0 = "تایم استراحت";
 
 let size_bubble_x = Math.round(0.38*Pos.canvas_height);
 let size_bubble_y = Math.round(0.08*Pos.canvas_height);
@@ -83,6 +85,6 @@ let pos_bubble_y2 = Pos.center_y + Math.round(0.143*Pos.canvas_height);
 let pos_researcher_x = window_availw/3.3;
 let pos_researcher_y = 4*window_availh/5;
 
-let text_tutorial_6_1 = "Thank you for your effort. When you are ready,";
-let text_tutorial_6_2 = "please click the start button to restart.";
+let text_tutorial_6_1 = "از تلاش شما سپاسگزارم. وقتی آماده بودید،";
+let text_tutorial_6_2 = "لطفاً برای شروع مجدد دکمه شروع را کلیک کنید.";
 

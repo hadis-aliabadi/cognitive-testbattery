@@ -22,10 +22,10 @@ let size_previous_text = Math.round(0.02*Pos.canvas_height); //in pixel
 let text_font = 'Helvetica';
 
 //scene 0 
-let text_tutorial_0_0 = "The goal of this experiment is to measure your tracking ability.";
-let text_tutorial_0_1 = "On each trial,  five discs will be highlighted in red, and then ";
-let text_tutorial_0_2 = "all disks will start to move. Your task is to remember the"; 
-let text_tutorial_0_3 = "highlighted target discs and track these positions.";
+let text_tutorial_0_0 = "هدف این آزمایش سنجش توانایی ردیابی شماست.";
+let text_tutorial_0_1 = "در هر مرحله، پنج دیسک به رنگ قرمز های‌لایت خواهند شد";
+let text_tutorial_0_2 = "و سپس همه دیسک‌ها شروع به حرکت خواهند کرد. وظیفه شما این است که دیسک‌های هدف های‌لایت شده را به خاطر بسپارید"; 
+let text_tutorial_0_3 = " و موقعیت‌های آن‌ها را دنبال کنید";
 let pos_tutorialtext_x = Pos.center_x;
 let pos_tutorialtext_y = Pos.center_y+Math.round(0.04*Pos.canvas_height);;
 let size_tutorialtext = Math.round(0.025*Pos.canvas_height);
@@ -37,19 +37,19 @@ let shift_text = Math.round(0.04*Pos.canvas_height);
 let flag_disp = false;
 let num_demotargnum = 5;
 
-let text_tutorial_1_0 = "This is an example of stimulus presentation.";
+let text_tutorial_1_0 = "این یک نمونه است.";
 let pos_tutorialtext_x1 = Pos.center_x;
 //let pos_tutorialtext_y1 = Pos.center_y-Math.round(5*ppd);
 let pos_tutorialtext_y1 = Pos.center_y+Math.round(0.16*Pos.canvas_height);
 let shift_tuto_y = Math.round(0.16*Pos.canvas_height);
 
 //scene 2
-let text_tutorial_2_0 = "Your task is to click the buttons placed on the target disc positions.";
+let text_tutorial_2_0 = "وظیفه شما این است که روی دکمه‌های قرار داده شده در موقعیت‌های دیسک‌های هدف کلیک کنید.";
 let pos_tutorialtext_x2 = Pos.center_x;
 let pos_tutorialtext_y2 = Pos.center_y+Math.round(0.08*Pos.canvas_height);
 
 //scene 3
-let text_tutorial_3_0 = "Let's start the practice.";
+let text_tutorial_3_0 = "بیاید تمرین را شروع کنیم.";
 let size_tutorialtext3 = Math.round(0.04*Pos.canvas_height);
 let pos_tutorialtext_x3 = Pos.center_x;
 let pos_tutorialtext_y3 = Pos.center_y-Math.round(0.12*Pos.canvas_height);
@@ -61,9 +61,9 @@ let y_start = Pos.center_y-Math.round(0.10*Pos.canvas_height)+(size_start_h/2); 
 let size_start_text = Math.round(0.02*Pos.canvas_height);
 
 //scene main ready
-let text_tutorial_4_0 = "Let's start the main experiment.";
+let text_tutorial_4_0 = "بیاید آزمون اصلی را شروع کنیم.";
 //scene break
-let text_tutorial_5_0 = "Break time.";
+let text_tutorial_5_0 = "زمان استراحت";
 
 let size_bubble_x = Math.round(0.38*Pos.canvas_height);
 let size_bubble_y = Math.round(0.08*Pos.canvas_height);
@@ -74,5 +74,5 @@ let pos_bubble_y3 = Pos.center_y + Math.round(0.12*Pos.canvas_height);
 let pos_researcher_x = window_availw/3.9;
 let pos_researcher_y = 4*window_availh/5;
 
-let text_tutorial_6_1 = "Thank you for your effort. When you are ready,";
-let text_tutorial_6_2 = "please click the start button to restart.";
+let text_tutorial_6_1 = "از تلاش شما سپاسگزارم. وقتی آماده بودید،";
+let text_tutorial_6_2 = "لطفاً برای شروع مجدد دکمه شروع را کلیک کنید.";

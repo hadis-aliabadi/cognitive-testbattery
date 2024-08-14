@@ -22,10 +22,10 @@ let size_previous_text = Math.round(0.02*Pos.canvas_height); //in pixel
 let text_font = 'Helvetica';
 
 //scene 0
-let text_tutorial_0_0 = "The goal of this experiment is to measure your ability to distinguish";
-let text_tutorial_0_1 = "relevant from irrelevant information. On each trial, you will see ";
-let text_tutorial_0_2 = "a sequence of numbers. Your task is to focus on the number [7] and"; 
-let text_tutorial_0_3 = "answer whether the number after the [7] is the [3] or not.";
+let text_tutorial_0_0 = "هدف این آزمایش سنجش توانایی شما در تشخیص";
+let text_tutorial_0_1 = "اطلاعات مرتبط از غیرمرتبط است. در هر مرحله،";
+let text_tutorial_0_2 = "یک توالی از اعداد را مشاهده خواهید کرد. وظیفه شما این است که بر روی عدد [۷] تمرکز کنید"; 
+let text_tutorial_0_3 = "و پاسخ دهید که آیا عدد بعد از [۷]، عدد [۳] است یا خیر.";
 let pos_tutorialtext_x = Pos.center_x;
 let pos_tutorialtext_y = Pos.center_y+Math.round(0.04*Pos.canvas_height);
 let size_tutorialtext = Math.round(0.025*Pos.canvas_height);
@@ -37,14 +37,14 @@ let shift_text = Math.round(0.04*Pos.canvas_height);
 let flag_disp = false;
 let num_demotargnum = 5;
 
-let text_tutorial_1_0 = "If the number is 3 after 7,";
-let text_tutorial_1_1 = "please press the key J on your keyboard as soon as possible.";
+let text_tutorial_1_0 = "اگر عدد بعد از ۷، ۳ باشد";
+let text_tutorial_1_1 = "لطفا کلید J را روی صفحه کلید فشار دهید.";
 let pos_tutorialtext_x1 = Pos.center_x;
 let pos_tutorialtext_y1 = Pos.center_y+Math.round(0.08*Pos.canvas_height);
 let pos_tutorialimage_y1 = Pos.center_y - Math.round(0.16*Pos.canvas_height);
 
 //scene 2
-let text_tutorial_2_0 = "If not, please don't press any key.";
+let text_tutorial_2_0 = "اگر نه، لطفاً هیچ کلیدی را فشار ندهید.";
 let pos_tutorialtext_x2 = Pos.center_x;
 let pos_tutorialtext_y2 = Pos.center_y+Math.round(0.08*Pos.canvas_height);
 // let pos_anszer_y2= Pos.center_y+(size_answer/2)
@@ -52,8 +52,8 @@ let pos_answer_y2= Pos.center_y - Math.round(0.24*Pos.canvas_height);
 let pos_tutorialimage_y2 = Pos.center_y - Math.round(0.16*Pos.canvas_height);
 
 //scene 3
-let text_tutorial_3_0 = "Let's start the practice.";
-let text_tutorial_3_1 = "You get the response feedback during the practices.";
+let text_tutorial_3_0 = "بیاید تمرین کنیم.";
+let text_tutorial_3_1 = "در طول تمرین‌ها، بازخورد پاسخ‌ها را دریافت خواهید کرد.";
 let size_tutorialtext3 = Math.round(0.04*Pos.canvas_height);
 let pos_tutorialtext_x3 = Pos.center_x;
 let pos_tutorialtext_y3 = Pos.center_y-Math.round(0.12*Pos.canvas_height);
@@ -65,11 +65,11 @@ let y_start = Pos.center_y-Math.round(0.10*Pos.canvas_height)+(size_start_h/2); 
 let size_start_text = Math.round(0.02*Pos.canvas_height);
 
 //scene main ready
-let text_tutorial_4_0 = "Let's start the main experiment.";
-let text_tutorial_4_1 = "No response feedback during this experiment.";
+let text_tutorial_4_0 = "بیاید آزمون اصلی را شروع کنیم.";
+let text_tutorial_4_1 = "در طول آزمون هیچ بازخوردی از پاسخ ها دریافت نمی کنید.";
 
 //scene break
-let text_tutorial_5_0 = "Break time.";
+let text_tutorial_5_0 = "زمان استراحت";
 
 //feedback tutorial
 let width_feedback = Math.round(0.3*ppd);
@@ -83,5 +83,5 @@ let pos_bubble_y2 = Pos.center_y + Math.round(0.143*Pos.canvas_height);
 let pos_researcher_x = window_availw/3.3;
 let pos_researcher_y = 3.5*window_availh/5;
 
-let text_tutorial_6_1 = "Thank you for your effort. When you are ready,";
-let text_tutorial_6_2 = "please click the start button to restart.";
+let text_tutorial_6_1 = "از تلاش شما سپاسگزارم. وقتی آماده بودید،";
+let text_tutorial_6_2 = "لطفاً برای شروع مجدد دکمه شروع را کلیک کنید.";
